@@ -1,0 +1,37 @@
+*{
+  font-size: large;
+  background: #FFFEFA; 
+}
+.first{
+  margin-left: 3em;
+  margin-top: 3em;
+;margin-right: 3em;}
+.first img{
+    position: absolute;
+  width: 181px;
+  height: 186.23px;
+  left: 70em;
+  top: 3em;
+}
+.obj{
+  width: 32em;
+  height: 2.5em;
+  font-size: 45px;
+  line-height: 26px;
+  margin-left: 1em;
+}
+.container{
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  padding: 12px 0px;
+}
+.container #one{
+  grid-row-start: 1;
+  grid-row-end: 4;
+}
+.edu, .skill, .achieve, .project, .industry, .hobby{
+  font-size: 45px;
+  line-height: 26px;
+  margin-left: 1em;
+}
+
